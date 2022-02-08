@@ -3,7 +3,7 @@ import Todos from './Todos';
 import uniqid from 'uniqid';
 function Form({ todo, setTodo, todoList, settodoList, setStatus }) {
     const handleinput = (e) => {
-      
+    
             setTodo(e.target.value);
         
         // console.log(e.target.value);
