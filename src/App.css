@@ -1,6 +1,11 @@
 .gradient-custom {
- background: linear-gradient(to right, #cc2b5e, #753a88);
+    background: linear-gradient(to right, #cc2b5e, #753a88);
 }
-h1{
-color: white;
+
+h1 {
+    color: white;
+}
+
+.compi{
+    text-decoration: line-through;
 }
