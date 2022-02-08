@@ -6,7 +6,6 @@ import TodosData from './component/TodosData';
 function App() {
   return (
     <>
-      hii 
    <Todos />
   {/* <TodosData/> */}
       </>
