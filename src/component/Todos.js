@@ -1,6 +1,4 @@
-import React , {useState} from 'react';
-import TodosData from './TodosData';
-
+import React, { useState } from 'react';
 
 const Todos = () => {
     const [newTodo, setNewTodo] = useState("");
@@ -67,7 +65,7 @@ const Todos = () => {
                 <div>{ }</div>
                  < div className = "col col-md-12  text-center" >
                             <button className='btn btn-danger' onClick={() =>   setItems([]) }>Delete All</button>
-                            <button className='btn btn-warning' onClick={chekedall}>filter All</button>
+                            {/* <button className='btn btn-warning' onClick={chekedall}>filter All</button> */}
                     </div>
               </div>
         </div>
