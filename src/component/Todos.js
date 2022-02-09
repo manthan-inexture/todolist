@@ -11,10 +11,10 @@ const Todos = () => {
     const handlefilter = () =>{
         switch (status) {
             case "completed":
-                setFilter(todoList.filter((todos) => todos.completed == true))
+                setFilter(todoList.filter((todos) => todos.completed === true))
                 break;
             case "uncompleted":
-                setFilter(todoList.filter((todos) => todos.completed == false))
+                setFilter(todoList.filter((todos) => todos.completed === false))
                 break;
             default:
                 setFilter(todoList);

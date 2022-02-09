@@ -1,5 +1,4 @@
 import React from 'react';
-import Todos from './Todos';
 import uniqid from 'uniqid';
 function Form({ todo, setTodo, todoList, settodoList, setStatus }) {
     const handleinput = (e) => {
@@ -9,7 +8,7 @@ function Form({ todo, setTodo, todoList, settodoList, setStatus }) {
         // console.log(e.target.value);
     }
     const handlesubmit = () => {
-        if (todo == "") {
+        if (todo ==="") {
 
         }
         else {
